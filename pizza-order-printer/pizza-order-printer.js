@@ -22,5 +22,3 @@ async function getPizzaOrder() {
   // now check to see if the pizzaOrders object was created correctly
   console.log("pizzaOrders:", pizzaOrders);
 }
-
-getPizzaOrder();
