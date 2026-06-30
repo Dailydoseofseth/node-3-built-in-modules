@@ -2,7 +2,7 @@
 
 ## 📌 Your Task
 
-In this exercise, you’ll create a Node.js app that reads pizza order data from a JSON file and prints it to the command line.  
+In this exercise, you’ll create a Node.js app that reads pizza order data from a JSON file and prints it to the command line.
 
 Your app should:
 
@@ -24,15 +24,16 @@ Your app should:
 
 You will practice:
 
-* Using `process.argv` to take user input
-* Importing and using the `fs/promises` Node module
-* Reading and handling data from a JSON file
+- Using `process.argv` to take user input
+- Importing and using the `fs/promises` Node module
+- Reading and handling data from a JSON file
 
 ---
 
 ## 📖 Test Cases
 
 ### 1. Running `node pizza-order-printer.js getAllOrders` should output:
+
 ```bash
 Margherita - extra cheese
 Pepperoni - no olives
@@ -44,16 +45,19 @@ Four Cheese Pizza - stuffed crust
 ```
 
 ### 2. Running `node pizza-order-printer.js getOneOrder 2` should output:
+
 ```bash
 Veggie - gluten-free crust
 ```
 
 ### 3. Running `node pizza-order-printer.js getOneOrder 5` should output:
+
 ```bash
 Mushroom Pizza - thin crust
 ```
 
 ### 4. Running `node pizza-order-printer.js getOneOrder 10` should output an error message:
+
 ```bash
 Order not found. Please enter a valid order number.
 ```
